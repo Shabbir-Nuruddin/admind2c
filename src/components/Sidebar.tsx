@@ -6,7 +6,7 @@ import {
   SquaresFour, 
   CheckSquareOffset, 
   CalendarBlank, 
-  Activity, 
+  Pulse, 
   Image as ImageIcon,
   Users
 } from "@phosphor-icons/react";
@@ -15,7 +15,7 @@ const NAV_ITEMS = [
   { name: "Overview", href: "/", icon: SquaresFour },
   { name: "Tasks", href: "/tasks", icon: CheckSquareOffset },
   { name: "Timeline", href: "/timeline", icon: CalendarBlank },
-  { name: "Activity", href: "/activity", icon: Activity },
+  { name: "Activity", href: "/activity", icon: Pulse },
   { name: "Designs", href: "/designs", icon: ImageIcon },
   { name: "Meetings", href: "/meetings", icon: Users },
 ];
